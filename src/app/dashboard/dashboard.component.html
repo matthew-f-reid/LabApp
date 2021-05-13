@@ -1,2 +1,7 @@
-<h1>Induction</h1>
-<button (click)="btnInduction();">Inductions</button>
+
+<h1>Dashboard</h1>
+<button (click)="btnInduction();" routerLink="/induction">Inductions</button>
+<a routerLink="/induction" routerLinkActive="active">Inductions</a>
+
+
+<button [routerLink]="['/induction']">Inductions</button>
